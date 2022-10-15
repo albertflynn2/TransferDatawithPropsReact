@@ -24,6 +24,3 @@ const PageTwoContainer = props => (
 );
 
 export default PageTwoContainer;
-
-
-{/* */ }
