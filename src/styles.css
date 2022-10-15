@@ -1,0 +1,18 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.word-text {
+    text-align: center;
+    width: 100%;
+    margin: 200px 50px 50px 1px;
+    color: #4B70D1;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 10px;
+    transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    display: inline-block;
+}
