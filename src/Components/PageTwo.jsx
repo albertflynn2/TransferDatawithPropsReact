@@ -1,12 +1,25 @@
 import React from 'react'
 import { myContext } from '../App'
-
+import Table from 'react-bootstrap/Table';
 
 const PageTwo = ({ value, ...props }) => (
 
     <div>
+        <Table striped bordered hover variant="dark">
+            <thead>
+                <tr>
+                    <th>TrackPlan Test</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Director</td>
+                    <td>Mark</td>
+                    <td>Cochrane</td>
+                </tr>
 
-        <h1>Page Two</h1>
+            </tbody>
+        </Table>
 
         <span class="word-text">
             {value.word || ""}
